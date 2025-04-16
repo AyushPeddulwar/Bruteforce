@@ -8,7 +8,7 @@ const PORT = 3000;
 
 // Hidden secret
 const SECRET_CODE = 1971; // The secret code
-const SECRET_KEY = process.env.SECRET_KEY;
+const SECRET_KEY = sk_live_98xyzSECRETKEY;
 
 app.use(express.static(path.join(__dirname, "public")));
 // Serve static files from the public directory
