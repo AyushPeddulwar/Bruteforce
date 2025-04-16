@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3000;
 
 // Hidden secret
-const SECRET_CODE = process.env.SECRET_CODE; // The secret code
+const SECRET_CODE = 1971; // The secret code
 const SECRET_KEY = process.env.SECRET_KEY;
 
 app.use(express.static(path.join(__dirname, "public")));
